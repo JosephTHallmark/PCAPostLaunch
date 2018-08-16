@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="Student_Mode">Unknown</string>
+  <string name="app_name">PCA app</string>
+  <string name="picButton">Take a Picture</string>
+  <string name="profButton">Reference</string>
+  <string name="takeapicprof">Take a picture1</string>
+  <string name="goBackButton">Go back</string>
+  <string name="finishButton">Finish</string>
+  <string name="profFinishbutton">Finish</string>
+  
+</resources>

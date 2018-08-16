@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:text="Take A Picture (0)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/picButton"
+        android:visibility="invisible" />
+    <Button
+        android:text="Select Area (0)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cropButton"
+        android:visibility="invisible" />
+    <Button
+        android:text="Label Data (0)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/labelButton"
+        android:visibility="invisible" />
+    <Button
+        android:text="Finish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/finishButton"
+        android:visibility="invisible" />
+    <ImageView
+        android:src="@android:drawable/ic_menu_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imageView"
+        android:scaleType="fitCenter"
+        android:visibility="invisible" />
+</LinearLayout>

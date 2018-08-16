@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/android:color/white">
+
+  <TextView
+    android:text="Select Areas"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="30dp"
+    android:layout_marginTop="25dp"
+    android:gravity="center"
+    android:textColor="@color/Title"
+    android:id="@+id/selectAreaTitle"
+    />
+
+  <TextView
+    android:text=""
+    android:textColor="@color/Title"
+    android:textSize="20dp"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="25dp"
+    android:layout_marginBottom="25dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/selectAreaTitle"
+    android:id="@+id/selectAreaCounterLbl"
+    />
+
+  <ImageView
+    android:src="@android:drawable/ic_menu_gallery"
+    android:layout_width="450dp"
+    android:layout_height="300dp"
+    android:id="@+id/imageView1"
+    android:layout_centerHorizontal="true"
+    android:layout_marginBottom="25dp"
+    android:layout_below="@id/selectAreaCounterLbl"
+    />
+
+
+
+    <Button
+      android:text="Select Area"
+      android:layout_width="match_parent"
+      android:layout_height="75dp"
+      android:layout_alignParentBottom="true"
+      android:layout_marginLeft="25dp"
+      android:layout_marginRight="25dp"
+      android:layout_marginBottom="25dp"
+      android:background="@color/MainMenuBtn"
+      android:id="@+id/cropButton" />
+  
+    <Button
+      android:text="Label"
+      android:visibility="gone"
+      android:layout_width="match_parent"
+      android:layout_height="75dp"
+      android:layout_centerHorizontal="true"
+      android:layout_marginLeft="25dp"
+      android:layout_marginRight="25dp"
+      android:layout_marginBottom="25dp"
+      android:background="@color/MainMenuBtn"
+      android:id="@+id/labelButton"
+      android:layout_above="@id/cropButton"
+    />
+
+  <ImageButton
+     android:src="@drawable/infoBtnImage"
+     android:layout_width="wrap_content"
+     android:layout_height="25dp"
+     android:layout_alignParentTop="true"
+     android:background="@color/HelpBtn"
+     android:id="@+id/helpButton"
+
+    />
+
+
+</RelativeLayout>

@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_gravity="center_vertical|center_horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/android:color/white">
+
+
+  <TextView
+    android:text="Take a Picture"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="30dp"
+    android:layout_marginTop="50dp"
+    android:gravity="center"
+    android:textColor="@color/Title"
+    android:id="@+id/pictureTitleLbl"
+    />
+
+  <TextView
+    android:text=""
+    android:textSize ="20dp"
+    android:textColor="@color/Title"
+    android:layout_below="@id/pictureTitleLbl"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:layout_marginTop="30dp"
+    android:id="@+id/numberOfPicturesLbl"
+    />
+  
+  
+  
+ <!--alignParentBottom-->
+  <ImageButton
+      android:src="@drawable/cameraBtnImage"
+      android:text=""
+      android:layout_width="match_parent"
+      android:layout_height="75dp"
+      android:layout_centerInParent="true"
+      android:layout_marginLeft="25dp"
+      android:layout_marginRight="25dp"
+      android:layout_marginBottom="25dp"
+      android:background="@color/MainMenuBtn"
+      android:id="@+id/picButton" />
+
+  <Button
+      android:text="Finish"
+      android:visibility="gone"
+      android:layout_width="match_parent"
+      android:layout_height="75dp"
+      android:layout_below="@id/picButton"
+      android:layout_marginLeft="25dp"
+      android:layout_marginRight="25dp"
+      android:layout_marginBottom="25dp"
+      android:background="@color/MainMenuBtn"
+      android:id="@+id/finishButton" />
+  
+   <ImageButton
+    android:src="@drawable/infoBtnImage"
+    android:layout_width="wrap_content"
+    android:layout_height="25dp"
+    android:layout_alignParentTop="true"
+    android:background="@color/HelpBtn"
+    android:id="@+id/helpButton"
+
+    />
+
+</RelativeLayout>
